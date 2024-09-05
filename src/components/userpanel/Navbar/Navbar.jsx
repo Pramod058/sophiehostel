@@ -15,14 +15,14 @@ const Navbar = () => {
 
   return (
     <nav  className={`mainContainer ${sticky ? 'dark-nav' : ''}  `}>
-      <img src={logo} alt='logo' />
+     <Link to='hero' smooth={true} offset={0} duration={500}> <img src={logo} alt='logo' /></Link>
       <ul>
         <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='' smooth={true} offset={0} duration={500}>Updates</Link></li>
         <li><Link to='' smooth={true} offset={0} duration={500}>About Us</Link></li>
         <li><Link to='plans' smooth={true} offset={-160} duration={500}>Plans & Pricing</Link></li>
         <li><Link to='' smooth={true} offset={0} duration={500}>Testimonials</Link></li>
-        <li><Link to='' smooth={true} offset={0} duration={500} className='mainButton'>Contact Us</Link></li>
+        <li><Link to='contact' smooth={true} offset={-220} duration={500} className='mainButton'>Contact Us</Link></li>
       </ul>
     </nav>
   )
