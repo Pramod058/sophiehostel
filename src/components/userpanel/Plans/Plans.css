@@ -1,9 +1,9 @@
 
 .plans-container {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 0px;
 }
 
 .plan-card {
@@ -48,10 +48,6 @@
 
 .plan-features li {
     margin: 10px 0;
-}
-
-.plan-button {
-    background: #f06292;
 }
 
 /* Responsive

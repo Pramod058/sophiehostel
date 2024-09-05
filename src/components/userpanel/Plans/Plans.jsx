@@ -31,7 +31,7 @@ const Plans = () => {
 
     return (
 
-            <div className="mainContainer plans-container">
+            <div className="mainContainer plans-container" name='plans'>
                 {plans.map((plan) => (
                     <div className="plan-card" key={plan.id}>
                         <FontAwesomeIcon icon={plan.icon} className="plan-icon" />
