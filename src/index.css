@@ -20,12 +20,12 @@ a{
 }
 
 .mainContainer{
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .mainButton{
-  background: #fff;
+  background: #FFFFFF;
   color: #212121;
   padding: 14px 25px;
   font-size: 16px;
@@ -39,10 +39,19 @@ a{
 }
 
 .mainButton:hover{
-  background: pink;
+  background: rgb(227, 171, 180);
 }
 
 .mainButton img{
   width: 20px;
   margin-left: 10px;
+  
+}
+
+.pink-btn{
+  background:rgb(227, 171, 180);
+}
+
+.pink-btn:hover{
+  background:#ff7a7a;
 }
