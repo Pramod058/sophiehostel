@@ -1,0 +1,57 @@
+.aboutus{
+    background-color: pink;
+    margin:0px 80px auto;
+    max-width: 90%;
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.col-left{
+    background-color: aliceblue;
+    flex-basis: 48%;
+    align-items: center;
+    justify-content: center;    
+    
+}
+.col-right{
+    float: right;
+    background-color: aqua;
+    flex-basis: 48%;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #about h2, #offers h2, #contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .icon {
+    color: #f06292;
+    margin-bottom: 15px;
+  }
+  
+  .offerings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .offering {
+    width: 150px;
+    margin: 20px;
+  }
+  
+  .offering h4 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
